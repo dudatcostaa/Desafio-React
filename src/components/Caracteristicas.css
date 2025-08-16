@@ -1,0 +1,58 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f8f5f0;
+}
+
+.containerCaracteristicas {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    background-color: #f8f5f0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.containerCaracteristicas h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    text-align: center;
+}
+
+.unidadesCaracteristicas {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-left: clamp(1rem, 8vw, 10rem);
+    padding-right: clamp(1rem, 8vw, 10rem);
+}
+
+.temperatura,
+.vazamentos,
+.sustentabilidade {
+    font-family: "Sora", sans-serif;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    text-align: center;
+
+    color: #000000;
+    border-radius: 2rem;
+
+    padding: clamp(1rem, 4vw, 2rem);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .unidadesCaracteristicas {
+        grid-template-columns: 1fr;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        gap: 1.5rem;
+    }
+}

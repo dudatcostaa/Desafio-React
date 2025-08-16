@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 30rem;
+  padding: 1.5rem 2rem;
+}
+
+.conteudo-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.containerSejaOPrimeiroASaber h1 {
+  font-size: 5rem;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.containerSejaOPrimeiroASaber h2 {
+  font-size: 2rem;
+  font-family: 'Sora', sans-serif;
+  font-weight: 300;
+  padding: 1em 0em;
+}
+
+.formulario {
+  width: 90%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'Sora', sans-serif;
+  color: #ffffff;
+}
+
+.campo-nome,
+.campo-email {
+  width: 100%;
+}
+
+.campo-nome input,
+.campo-email input {
+  width: 90%;
+  background-color: #000000;
+  font-size: 3rem;
+  border: none;
+  color: #ffffff;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.campo-nome input:focus,
+.campo-email input:focus {
+  outline: 2px;
+  outline-style: solid;
+  outline-color: #ffffff;
+  outline-offset: 2px;
+}
+
+.campo-nome::placeholder,
+.campo-email::placeholder {
+  color: #ffffff;
+  opacity: 1;
+  outline: none;
+}
+
+.formulario button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.5rem;
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #ffffff;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.redes-sociais {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 1rem;
+}
+
+.redes-sociais p {
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+  font-size: 2.5rem;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.redes-sociais li {
+  display: inline;
+  padding: 0.3rem;
+}
+
+.redes-sociais a {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+.redes-sociais a:hover {
+  color: #84a98c;
+}
+
+.copy {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 1.2rem;
+  font-family: 'Sora', sans-serif;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+
+  .conteudo-footer {
+    flex-direction: column;
+  }
+
+  .containerSejaOPrimeiroASaber h1 {
+    font-size: 3.5rem;
+  }
+
+  .containerSejaOPrimeiroASaber h2 {
+    font-size: 1.5rem;
+  }
+
+  .formulario {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .campo-email input,
+  .campo-nome input {
+    font-size: 2rem;
+  }
+
+  .formulario button {
+    width: 15%;
+  }
+
+  .redes-sociais p {
+    font-size: 1.5rem;
+  }
+
+  .redes-sociais a {
+    font-size: 2rem;
+  }
+
+  .copy {
+    font-size: 1rem;
+  }
+
+}

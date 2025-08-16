@@ -1,0 +1,59 @@
+.herosection {
+    height: 100vh;
+    background-image: url('/images/HeroSectionImage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.herosection p {
+    color: #F9F6F2;
+    font-family: 'Sora', sans-serif;
+    font-size: clamp(2.5rem, 6vw, 6rem);
+    margin-left: 2.5rem;
+}
+
+.buttonShop {
+    background-color: #F9F6F2;
+    color: #000000;
+    width: clamp(7rem, 15vw, 15rem);
+    height: clamp(2.5rem, 5vw, 5rem);
+    margin-left: 2.5rem;
+    margin-top: 3rem;
+    align-items: center;
+    border-radius: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-position 0.4s ease, color 0.4s ease;
+    background: linear-gradient(to right, #84a98c 50%, #F9F6F2 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+}
+
+.buttonShop:hover {
+    background-position: left bottom;
+    color: #F9F6F2;
+}
+
+/*MOBILE*/
+@media (max-width: 768px) {
+    .herosection p {
+        margin-left: 1.5rem;
+    }
+
+    .buttonShop {
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+}

@@ -1,0 +1,26 @@
+html{
+    font-size: 62.5%;
+}
+
+.clienteImagem{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.clienteImagem img{
+    width: 30%;
+    height: auto;
+    border:none;
+    border-radius: 1rem;
+}
+
+.paragrafoDepoimento{
+    text-align: center;
+    font-size: clamp(1rem, 2.5vh, 2rem);
+    font-family: 'Sora', sans-serif;
+    font-style: italic;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+}

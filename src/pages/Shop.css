@@ -1,0 +1,40 @@
+html {
+    font-size: 62.5%;
+}
+
+.produtosContainer {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f5f0;
+}
+
+.produtosContainer h1 {
+    font-size: 5rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    margin: 3rem;
+
+    animation: slideInFromLeft 0.8s ease-out;
+    animation-fill-mode: both;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

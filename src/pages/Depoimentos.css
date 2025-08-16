@@ -1,0 +1,34 @@
+html {
+    font-size: 62.5%;
+}
+
+.depoimentosContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f5f0;
+}
+
+.depoimentosContainer h1 {
+    font-size: clamp(2.8rem, 4vw, 5rem);
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.depoimentosContainer{
+    padding: 2rem;
+}
+
+.depoimentosContainer p{
+    font-family: 'Sora', sans-serif;
+    padding: 0.3rem;
+    font-size: clamp(1.4rem, 2vw, 2rem);
+    text-align: center;
+}
+
+.sliderClienteContainer{
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+

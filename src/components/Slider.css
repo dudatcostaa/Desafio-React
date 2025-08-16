@@ -1,0 +1,29 @@
+html {
+    font-size: 62.5%;
+}
+
+.sliderContainer {
+    background-color: #f8f5f0;
+    padding: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    text-align: center;
+}
+
+.sliderContainer .swiper-button-prev, .sliderContainer .swiper-button-next{
+    /*circulo em volta da seta*/
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+   
+    background-color: #95938f;
+    opacity: 60%;
+    color: #ffffff;
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out, border-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.sliderContainer .swiper-button-prev:hover , .sliderContainer .swiper-button-next:hover {
+    transform: scale(1.13);
+    background-color: #777673;
+    opacity: 70%;
+}

@@ -1,0 +1,9 @@
+html {
+    font-size: 62.5%;
+}
+
+.sliderProdutoContainer {
+    background-color: #f8f5f0;
+    height: 100vh;
+    width: auto;
+}

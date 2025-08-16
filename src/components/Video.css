@@ -1,0 +1,65 @@
+html {
+    font-size: 62.5%;
+}
+
+.containerVideo {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.containerVideo .containerVideoParagrafos {
+    font-family: 'Sora', sans-serif;
+    font-size: clamp(2rem, 6vw, 4.5rem);
+    font-weight: 500;
+
+    position: relative;
+    z-index: 1;
+    margin-top: clamp(2rem, 8vw, 8rem);
+    margin-left: clamp(1rem, 10vw, 9rem);
+    padding-right: 3rem;
+}
+
+.buttonConhecaNossosModelos {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(1.6rem, 4vw, 3rem);
+    /* responsivo */
+    width: clamp(10rem, 40vw, 25rem);
+    height: auto;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+    background-color: #000000;
+    color: #ffffff;
+
+    position: relative;
+    z-index: 5;
+    margin-left: clamp(1rem, 10vw, 9rem);
+    margin-top: 3rem;
+
+    transition: background-position 0.4s ease, color 0.4s ease;
+    background: linear-gradient(to right, #84a98c 50%, #000000 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+
+}
+
+.buttonConhecaNossosModelos:hover {
+    background-position: left bottom;
+    color: #F9F6F2;
+}
