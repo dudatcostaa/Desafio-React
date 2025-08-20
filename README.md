@@ -2,6 +2,9 @@
 
 Projeto desenvolvido para o desafio React da TrilhaDev da Pixel, empresa júnior de Ciência da Computação da UFSC, como parte do processo de efetivação de trainees.
 
+# Meu projeto :) 
+Acesse meu site aqui [Meu site](https://desafio-react-lblb.vercel.app/)
+
 ## Sobre o Projeto
 
 Este projeto consiste em uma **landing page** para a marca fictícia **Stanlee**, especializada em produtos térmicos. A landing page é moderna, responsiva e possui integração com EmailJS para captura de leads via formulário e contato com a equipe.
@@ -22,7 +25,6 @@ Este projeto consiste em uma **landing page** para a marca fictícia **Stanlee**
 - **EmailJS**
 - **Swiper**
 - **React Icons**
-- **CSS Modules** e fontes customizadas
 
 ## Como rodar localmente
 
